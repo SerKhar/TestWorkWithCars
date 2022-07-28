@@ -29,7 +29,7 @@ namespace TestWorkWithCars
         /// </summary>
         public  decimal CalculationDistanceOnRemainingFuel(decimal remainingFuel)
         {
-            return Speed  * remainingFuel / AverageFuelConsumption;
+            return Speed  * remainingFuel * 100 / AverageFuelConsumption;
         }
         /// <summary>
         ///Метод подсчета состояния запаса хода в зависимости от пассажиров и груза
